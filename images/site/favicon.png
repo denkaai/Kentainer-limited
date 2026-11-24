@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kentainers Limited | Kenya's Trusted Polyethylene Water Tanks & Products</title>
+  <meta name="description" content="Kentainers Limited manufactures genuine KENTANK water storage tanks, HDPE & PVC pressure pipes, Mobilet sanitation systems, and QDesk educational furniture in Kenya.">
+  <link rel="canonical" href="https://kentainers.co.ke/index.html">
+
+  <!-- Open Graph / Social Sharing -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://kentainers.co.ke/index.html">
+  <meta property="og:title" content="Kentainers Limited | Manufacturers of KENTANK Water Storage Solutions">
+  <meta property="og:description" content="KENTANK is a household name in Kenya and a premium brand in water storage solutions.">
+  <meta property="og:image" content="images/web/logo.png">
+
+  <!-- Google Fonts: Poppins -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- JSON-LD Structured Data: Organization -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Kentainers Limited",
+    "alternateName": "KENTANK Kenya",
+    "url": "https://kentainers.co.ke",
+    "logo": "https://kentainers.co.ke/images/web/logo.png",
+    "description": "Kenyan manufacturer of polyethylene water storage tanks, pipes, sanitation systems, and agricultural products.",
+    "telephone": "+254702233258",
+    "email": "info@kentainers.co.ke",
+    "address": [
+      {
+        "@type": "PostalAddress",
+        "streetAddress": "Nairobi Gate Industrial Park, Northlands Area, Eastern Bypass",
+        "addressLocality": "Nairobi",
+        "addressCountry": "KE"
+      },
+      {
+        "@type": "PostalAddress",
+        "streetAddress": "Kikambala, Malindi Road",
+        "addressLocality": "Kilifi",
+        "addressCountry": "KE"
+      },
+      {
+        "@type": "PostalAddress",
+        "streetAddress": "Victoria Park, Sabuni Road, Off Busia Road",
+        "addressLocality": "Kisumu",
+        "addressCountry": "KE"
+      }
+    ],
+    "slogan": "KENTANK is a household name in Kenya and a premium brand in water storage solutions."
+  }
+  </script>
+</head>
+<body>
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <!-- Top bar & Sticky Header injected by js/components.js -->
+  <div id="site-topbar-root"></div>
+  <div id="site-header-root"></div>
+
+  <main id="main-content" class="main-content">
+    <!-- TASK 2: Premium Full-Bleed Homepage Hero Slider (5 Slides) -->
+    <section class="hero-slider-section" aria-label="Hero Highlights Slider" tabindex="0">
+      <div class="hero-slider-track">
+        <!-- Slide 1: Water Storage Flagship -->
+        <div class="hero-slide active" role="group" aria-roledescription="slide" aria-label="1 of 5: Water Storage Solutions">
+          <img src="images/web/kentainer-hero-background.jpeg" alt="Kentainers Water Storage Solutions" class="hero-slide-bg" loading="eager" width="715" height="477">
+          <div class="hero-slide-overlay"></div>
+          <div class="container hero-slide-content">
+            <div class="hero-text-block">
+              <span class="hero-eyebrow">Water Storage Solutions</span>
+              <h1 class="hero-title">KENTANK <span>Water Storage</span> Built for Lifetimes</h1>
+              <p class="hero-desc">
+                KENTANK is a household name in Kenya and a premium brand in water storage solutions. Engineered from durable rotomoulded polyethylene built for Kenyan conditions.
+              </p>
+              <div class="hero-buttons">
+                <a href="shop.html?category=water-storage" class="btn btn-accent btn-lg">Explore Water Tanks</a>
+                <a href="request-a-quote.html" class="btn btn-outline-white btn-lg">Request a Quote</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Slide 2: Pipes & Fittings -->
+        <div class="hero-slide" role="group" aria-roledescription="slide" aria-label="2 of 5: Pipes and Fittings">
+          <img src="images/web/32mm-hdpe-pn6-pn8.jpg" alt="KENTANK HDPE Pressure and PVC Conduit Pipes" class="hero-slide-bg" loading="lazy" width="160" height="120">
+          <div class="hero-slide-overlay"></div>
+          <div class="container hero-slide-content">
+            <div class="hero-text-block">
+              <span class="hero-eyebrow">Pipes & Fittings</span>
+              <h2 class="hero-title">High-Density <span>Polyethylene & PVC</span> Pressure Pipes</h2>
+              <p class="hero-desc">
+                Quality HDPE pressure pipes (PN6 and PN8) and heavy-gauge PVC conduit pipes engineered for irrigation, boreholes, and building infrastructure.
+              </p>
+              <div class="hero-buttons">
+                <a href="shop.html?category=pipes-fittings" class="btn btn-accent btn-lg">View Pipes & Fittings</a>
+                <a href="plumbers-hub.html" class="btn btn-outline-white btn-lg">Plumber's Guide</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Slide 3: Furniture & QDesk -->
+        <div class="hero-slide" role="group" aria-roledescription="slide" aria-label="3 of 5: QDesk School Furniture">
+          <img src="images/web/qdesk.jpg" alt="KENTANK QDesk Ergonomic School Furniture" class="hero-slide-bg" loading="lazy" width="1060" height="1200" style="object-position: center 25%;">
+          <div class="hero-slide-overlay"></div>
+          <div class="container hero-slide-content">
+            <div class="hero-text-block">
+              <span class="hero-eyebrow">Classroom & Institutional Furniture</span>
+              <h2 class="hero-title">KENTANK <span>QDesk</span> Ergonomic School Furniture</h2>
+              <p class="hero-desc">
+                Moulded student desk-chair units with integrated tablet arms. Termite-proof, splinter-proof, easy to sanitize, and built for rigorous daily school use.
+              </p>
+              <div class="hero-buttons">
+                <a href="shop.html?category=furniture-qdesk" class="btn btn-accent btn-lg">Explore QDesk</a>
+                <a href="request-a-quote.html?product=KENTANK%20QDesk%20Ergonomic%20School%20Desk" class="btn btn-outline-white btn-lg">Request School Quote</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Slide 4: Countrywide Delivery -->
+        <div class="hero-slide" role="group" aria-roledescription="slide" aria-label="4 of 5: Direct Delivery">
+          <img src="images/web/countrywide-delivery.jpg" alt="Kentainers direct delivery fleet" class="hero-slide-bg" loading="lazy" width="738" height="738">
+          <div class="hero-slide-overlay"></div>
+          <div class="container hero-slide-content">
+            <div class="hero-text-block">
+              <span class="hero-eyebrow">Logistics & Distribution</span>
+              <h2 class="hero-title">Direct Site & Hardware <span>Delivery</span></h2>
+              <p class="hero-desc">
+                Supplying authorized hardware stockists, farms, schools, and project sites with prompt, dedicated delivery from our regional plants.
+              </p>
+              <div class="hero-buttons">
+                <a href="find-a-distributor.html" class="btn btn-accent btn-lg">Find a Stockist</a>
+                <a href="https://wa.me/254702233258" class="btn btn-whatsapp btn-lg" target="_blank" rel="noopener noreferrer">Order via WhatsApp</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Slide 5: Agriculture & Material Handling -->
+        <div class="hero-slide" role="group" aria-roledescription="slide" aria-label="5 of 5: Agriculture and Material Handling">
+          <img src="images/web/kentainer-drum-blue.jpg" alt="Kentainers industrial drums and agricultural silos" class="hero-slide-bg" loading="lazy" width="430" height="487">
+          <div class="hero-slide-overlay"></div>
+          <div class="container hero-slide-content">
+            <div class="hero-text-block">
+              <span class="hero-eyebrow">Agriculture & Industry</span>
+              <h2 class="hero-title">Tough Polyethylene for <span>Farms & Industry</span></h2>
+              <p class="hero-desc">
+                Chemical-resistant industrial drums, post-harvest hermetic grain silos, and livestock feeding troughs built for Kenyan agricultural and commercial demands.
+              </p>
+              <div class="hero-buttons">
+                <a href="shop.html" class="btn btn-accent btn-lg">Browse Catalogue</a>
+                <a href="contact-us.html" class="btn btn-outline-white btn-lg">Contact Technical Sales</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Slider Arrows -->
+      <button type="button" class="slider-arrow slider-prev" aria-label="Previous slide">
+        <svg viewBox="0 0 24 24"><path d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"/></svg>
+      </button>
+      <button type="button" class="slider-arrow slider-next" aria-label="Next slide">
+        <svg viewBox="0 0 24 24"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"/></svg>
+      </button>
+
+      <!-- Slider Dots -->
+      <div class="slider-dots" role="tablist" aria-label="Slide Selection Dots">
+        <button type="button" class="slider-dot active" role="tab" aria-selected="true" aria-label="Slide 1"></button>
+        <button type="button" class="slider-dot" role="tab" aria-selected="false" aria-label="Slide 2"></button>
+        <button type="button" class="slider-dot" role="tab" aria-selected="false" aria-label="Slide 3"></button>
+        <button type="button" class="slider-dot" role="tab" aria-selected="false" aria-label="Slide 4"></button>
+        <button type="button" class="slider-dot" role="tab" aria-selected="false" aria-label="Slide 5"></button>
+      </div>
+    </section>
+
+    <!-- Quick Action Cards (Row of 3) -->
+    <section class="quick-actions-bar" aria-label="Quick Actions">
+      <div class="container">
+        <div class="quick-actions-grid">
+          <a href="request-a-quote.html" class="quick-action-card highlight">
+            <div class="action-card-icon">
+              <svg viewBox="0 0 24 24"><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-5 14H7v-2h7v2zm3-4H7v-2h10v2zm0-4H7V7h10v2z"/></svg>
+            </div>
+            <div>
+              <h3 class="action-card-title">Request a Quote</h3>
+              <p class="action-card-text">Get an official price quotation and delivery estimate on WhatsApp or email.</p>
+            </div>
+          </a>
+
+          <a href="find-a-distributor.html" class="quick-action-card">
+            <div class="action-card-icon">
+              <svg viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5a2.5 2.5 0 010-5 2.5 2.5 0 010 5z"/></svg>
+            </div>
+            <div>
+              <h3 class="action-card-title">Find a Distributor</h3>
+              <p class="action-card-text">Connect with authorized hardware stockists across Nairobi, Coast, Western & beyond.</p>
+            </div>
+          </a>
+
+          <a href="contact-us.html" class="quick-action-card">
+            <div class="action-card-icon">
+              <svg viewBox="0 0 24 24"><path d="M6.62 10.79a15.053 15.053 0 006.59 6.59l2.2-2.2a1 1 0 011.02-.24c1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20a1 1 0 01-1 1c-9.39 0-17-7.61-17-17a1 1 0 011-1h3.5a1 1 0 011 1c0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
+            </div>
+            <div>
+              <h3 class="action-card-title">Contact Our Plants</h3>
+              <p class="action-card-text">Speak with our customer service team in Nairobi, Kilifi, or Kisumu today.</p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Category Tiles (6 Verified Categories) -->
+    <section class="section section-bg-alt" aria-labelledby="cat-tiles-title">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-subtitle">Manufacturing Lines</span>
+          <h2 id="cat-tiles-title" class="section-title">Explore Our Rotomoulded Product Categories</h2>
+          <p class="section-description">From cylindrical water harvesting tanks to pressure piping, sanitary units, farm silos, and moulded school furniture.</p>
+        </div>
+
+        <div class="category-tiles-grid">
+          <!-- 1. Water Storage -->
+          <a href="shop.html?category=water-storage" class="category-tile">
+            <div class="category-tile-img-wrap">
+              <img src="images/web/kentank-6000l-cylindrical-tank.png" alt="Water Storage Tanks" class="category-tile-img" loading="lazy" width="510" height="484">
+            </div>
+            <div>
+              <h3 class="category-tile-title">Water Storage</h3>
+              <span class="category-tile-count">Cylindrical & Loftanks</span>
+            </div>
+          </a>
+
+          <!-- 2. Pipes & Fittings -->
+          <a href="shop.html?category=pipes-fittings" class="category-tile">
+            <div class="category-tile-img-wrap">
+              <img src="images/web/32mm-hdpe-pn6-pn8.jpg" alt="Pipes and Fittings" class="category-tile-img" loading="lazy" width="160" height="120">
+            </div>
+            <div>
+              <h3 class="category-tile-title">Pipes & Fittings</h3>
+              <span class="category-tile-count">HDPE & PVC Conduit</span>
+            </div>
+          </a>
+
+          <!-- 3. Sanitation & Waste -->
+          <a href="shop.html?category=sanitation-waste" class="category-tile">
+            <div class="category-tile-img-wrap">
+              <img src="images/web/kentainers-kpot-white.jpg" alt="Sanitation and Waste Management" class="category-tile-img" loading="lazy" width="430" height="487">
+            </div>
+            <div>
+              <h3 class="category-tile-title">Sanitation & Waste</h3>
+              <span class="category-tile-count">Mobilet VIP, Septic, K-Pot</span>
+            </div>
+          </a>
+
+          <!-- 4. Agriculture & Biogas -->
+          <a href="shop.html?category=agriculture-biogas" class="category-tile">
+            <div class="category-tile-img-wrap">
+              <img src="images/web/kentank-3000l.jpg" alt="Agriculture and Biogas" class="category-tile-img" loading="lazy" width="980" height="700">
+            </div>
+            <div>
+              <h3 class="category-tile-title">Agriculture & Biogas</h3>
+              <span class="category-tile-count">Grain Silos, Troughs, Digesters</span>
+            </div>
+          </a>
+
+          <!-- 5. Material Handling -->
+          <a href="shop.html?category=material-handling" class="category-tile">
+            <div class="category-tile-img-wrap">
+              <img src="images/web/kentainer-drum-blue.jpg" alt="Material Handling Equipment" class="category-tile-img" loading="lazy" width="430" height="487">
+            </div>
+            <div>
+              <h3 class="category-tile-title">Material Handling</h3>
+              <span class="category-tile-count">210L Drums, Pallets, Crates</span>
+            </div>
+          </a>
+
+          <!-- 6. Furniture & QDesk -->
+          <a href="shop.html?category=furniture-qdesk" class="category-tile">
+            <div class="category-tile-img-wrap">
+              <img src="images/web/qdesk.jpg" alt="Furniture and QDesk" class="category-tile-img" loading="lazy" width="1060" height="1200">
+            </div>
+            <div>
+              <h3 class="category-tile-title">Furniture & QDesk</h3>
+              <span class="category-tile-count">Moulded Student Desks</span>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Featured Products Section (8 Products - Real Photos Only!) -->
+    <section class="section" aria-labelledby="featured-products-title">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-subtitle">Featured Products</span>
+          <h2 id="featured-products-title" class="section-title">Popular Kenyan Water & Poly Solutions</h2>
+          <p class="section-description">Built for durability and outdoor resilience with rotomoulded polyethylene. Request a price quotation in seconds.</p>
+        </div>
+
+        <div class="product-grid" id="featuredProductsGrid">
+          <!-- Populated strictly with real photo products by js/main.js -->
+        </div>
+
+        <div class="text-center" style="margin-top: var(--space-10);">
+          <a href="shop.html" class="btn btn-primary btn-lg">Browse Complete Catalogue</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Company Teaser Section (Safe verified claims) -->
+    <section class="section section-bg-alt" aria-labelledby="about-teaser-title">
+      <div class="container">
+        <div class="about-teaser-grid">
+          <div class="about-teaser-img-wrap">
+            <img src="images/web/countrywide-delivery.jpg" alt="Kentainers distribution logistics fleet" class="about-teaser-img" loading="lazy" width="738" height="738">
+            <div class="about-experience-badge">
+              <span class="experience-years">35</span>
+              <span class="experience-text">Years in Kenya</span>
+            </div>
+          </div>
+
+          <div>
+            <span class="section-subtitle">Who We Are</span>
+            <h2 id="about-teaser-title" class="section-title">Pioneering Polyethylene Manufacturing in East Africa</h2>
+            <p class="lead">
+              With over 35 years of manufacturing experience, <strong>Kentainers Limited</strong> is a pioneer in rotational moulding in Kenya. Our flagship brand, <strong>KENTANK</strong>, has become a household name in water storage solutions.
+            </p>
+            <p>
+              Operating modern rotational moulding facilities in <strong>Nairobi, Kilifi, and Kisumu</strong>, we manufacture dependable polyethylene products that serve households, schools, farms, and commercial enterprises.
+            </p>
+
+            <div class="about-bullets">
+              <div class="bullet-item">
+                <svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+                <span>Durable Rotomoulded Polyethylene</span>
+              </div>
+              <div class="bullet-item">
+                <svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+                <span>UV-Stabilized for Kenyan Weather</span>
+              </div>
+              <div class="bullet-item">
+                <svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+                <span>3 Manufacturing Plants</span>
+              </div>
+              <div class="bullet-item">
+                <svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+                <span>Authorized Distribution Network</span>
+              </div>
+            </div>
+
+            <a href="about-us.html" class="btn btn-primary">Learn More About Our Company</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Verified Stats Counter Band -->
+    <section class="stats-band" aria-label="Key Performance Statistics">
+      <div class="container">
+        <div class="stats-grid">
+          <div class="stat-item">
+            <div class="stat-number" data-target="35" data-suffix=" Years">35 Years</div>
+            <div class="stat-label">Manufacturing Heritage</div>
+            <div class="stat-subtext">Over 35 years manufacturing in Kenya</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number" data-target="6" data-suffix=" Lines">6 Lines</div>
+            <div class="stat-label">Product Categories</div>
+            <div class="stat-subtext">Water, pipes, sanitation, agriculture & furniture</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number" data-target="3" data-suffix=" Plants">3 Plants</div>
+            <div class="stat-label">Manufacturing Plants</div>
+            <!-- TODO: confirm factory locations with client -->
+            <div class="stat-subtext">Nairobi, Kilifi & Kisumu</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Find Help Cards (4 Columns) -->
+    <section class="section" aria-labelledby="help-title">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-subtitle">Customer Guidance</span>
+          <h2 id="help-title" class="section-title">How Can We Help You Today?</h2>
+          <p class="section-description">Practical guidance, base preparation guidelines, and stockist information for your installation.</p>
+        </div>
+
+        <div class="find-help-grid">
+          <div class="help-card">
+            <div class="help-card-icon">
+              <svg viewBox="0 0 24 24"><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-2 10h-4v4h-2v-4H7v-2h4V7h2v4h4v2z"/></svg>
+            </div>
+            <h3 class="help-card-title">Tank Sizing</h3>
+            <p class="help-card-desc">Review water capacity options to choose the right tank size for your household, school, or business.</p>
+            <a href="plumbers-hub.html#water-weight" class="btn btn-outline btn-sm">View Sizing Guide</a>
+          </div>
+
+          <div class="help-card">
+            <div class="help-card-icon">
+              <svg viewBox="0 0 24 24"><path d="M19.35 10.04C18.67 6.59 15.64 4 12 4 9.11 4 6.6 5.64 5.35 8.04 2.34 8.36 0 10.91 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96z"/></svg>
+            </div>
+            <h3 class="help-card-title">Base Preparation</h3>
+            <p class="help-card-desc">Practical tips for building a firm, level base with full bottom support to protect your tank.</p>
+            <a href="plumbers-hub.html#installation-essentials" class="btn btn-outline btn-sm">Read Base Guide</a>
+          </div>
+
+          <div class="help-card">
+            <div class="help-card-icon">
+              <svg viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5a2.5 2.5 0 010-5 2.5 2.5 0 010 5z"/></svg>
+            </div>
+            <h3 class="help-card-title">Stockist Network</h3>
+            <p class="help-card-desc">Locate authorized hardware stockists in Nairobi, Coast, Western, Rift Valley, and other regions.</p>
+            <a href="find-a-distributor.html" class="btn btn-outline btn-sm">Find Stockists</a>
+          </div>
+
+          <div class="help-card">
+            <div class="help-card-icon">
+              <svg viewBox="0 0 24 24"><path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm-2 16l-4-4 1.41-1.41L10 14.17l6.59-6.59L18 9l-8 8z"/></svg>
+            </div>
+            <h3 class="help-card-title">Warranty & Care</h3>
+            <p class="help-card-desc">Contact our technical team for warranty terms and best practices for tank maintenance.</p>
+            <a href="about-us.html#warranty" class="btn btn-outline btn-sm">Warranty Info</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Short Quote CTA Banner -->
+    <section class="section" style="padding-top: 0;">
+      <div class="container">
+        <div class="quote-cta-banner">
+          <div class="quote-cta-text">
+            <h3>Need an Immediate Quotation with Delivery?</h3>
+            <p>Our sales team is online to assist you with tank capacities, piping schedules, and direct transport rates.</p>
+          </div>
+          <div class="quote-cta-actions">
+            <a href="request-a-quote.html" class="btn btn-accent btn-lg">Request Written Quote</a>
+            <a href="https://wa.me/254702233258" class="btn btn-whatsapp btn-lg" target="_blank" rel="noopener noreferrer">
+              <span>WhatsApp Us: +254 702 233258</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Multi-column Footer & Floating WhatsApp injected by js/components.js -->
+  <div id="site-footer-root"></div>
+  <div id="site-whatsapp-root"></div>
+
+  <!-- Scripts -->
+  <script src="js/products.js"></script>
+  <script src="js/components.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
