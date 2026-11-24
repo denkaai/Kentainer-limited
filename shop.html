@@ -1,0 +1,101 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Catalogue & Price Inquiries | Kentainers Limited Kenya</title>
+  <meta name="description" content="Browse Kentainers complete catalogue of polyethylene products: KENTANK water tanks (100L - 24,000L), Mobilet toilets, septic tanks, grain silos, HDPE pipes, and QDesk school furniture.">
+  <link rel="canonical" href="https://kentainers.co.ke/shop.html">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://kentainers.co.ke/shop.html">
+  <meta property="og:title" content="Product Catalogue | Kentainers Limited">
+  <meta property="og:description" content="KENTANK water tanks, sanitation units, silos, and industrial polyethylene products. Request immediate factory pricing.">
+  <meta property="og:image" content="images/kentainers-logo.png">
+
+  <!-- Google Fonts: Poppins -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <!-- Top bar & Sticky Header injected by js/components.js -->
+  <div id="site-topbar-root"></div>
+  <div id="site-header-root"></div>
+
+  <main id="main-content" class="main-content">
+    <!-- Page Hero Breadcrumbs -->
+    <header class="page-hero">
+      <div class="container">
+        <h1 class="page-hero-title">Product Catalogue & Solutions</h1>
+        <p class="page-hero-desc">Explore our full line of rotomoulded water storage, sanitation, agriculture, material handling, and educational furniture products.</p>
+        <nav class="breadcrumbs" aria-label="Breadcrumb navigation">
+          <a href="index.html">Home</a>
+          <svg viewBox="0 0 24 24"><path d="M8.59 16.59L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.41z"/></svg>
+          <span aria-current="page">Catalogue</span>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Catalogue Section -->
+    <section class="section" aria-label="Product Catalogue Grid">
+      <div class="container">
+        <!-- Filter Toolbar -->
+        <div class="shop-toolbar">
+          <div class="category-filter-pills" role="toolbar" aria-label="Filter products by category">
+            <button type="button" class="filter-pill active" data-category="all" aria-pressed="true">All Products</button>
+            <button type="button" class="filter-pill" data-category="water-storage" aria-pressed="false">Water Storage</button>
+            <button type="button" class="filter-pill" data-category="pipes-fittings" aria-pressed="false">Pipes &amp; Fittings</button>
+            <button type="button" class="filter-pill" data-category="sanitation-waste" aria-pressed="false">Sanitation & Waste</button>
+            <button type="button" class="filter-pill" data-category="agriculture-biogas" aria-pressed="false">Agriculture & Biogas</button>
+            <button type="button" class="filter-pill" data-category="material-handling" aria-pressed="false">Material Handling</button>
+            <button type="button" class="filter-pill" data-category="furniture-qdesk" aria-pressed="false">Furniture & QDesk</button>
+          </div>
+
+          <div class="shop-search-box">
+            <svg viewBox="0 0 24 24"><path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0016 9.5 6.5 6.5 0 109.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/></svg>
+            <input type="text" id="shopSearchInput" placeholder="Live search tanks, pipes, silos..." aria-label="Search within catalogue">
+          </div>
+        </div>
+
+        <!-- Result Summary -->
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: var(--space-6); flex-wrap: wrap; gap: 8px;">
+          <h2 id="shopActiveCategory" style="font-size: 1.25rem; margin-bottom: 0;">Complete Product Catalogue</h2>
+          <span id="shopResultCount" style="font-size: 0.875rem; color: var(--text-muted);">Loading catalogue...</span>
+        </div>
+
+        <!-- Products Grid (Populated by js/main.js) -->
+        <div class="product-grid" id="shopProductGrid">
+          <!-- Dynamically populated -->
+        </div>
+
+        <!-- Help Callout -->
+        <div style="margin-top: var(--space-12); background: var(--bg-alt); padding: var(--space-8); border-radius: var(--radius-xl); border: 1px solid var(--border); display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: var(--space-6);">
+          <div>
+            <h3 style="margin-bottom: 6px;">Need a Custom Tank or Commercial Project Sizing?</h3>
+            <p style="margin-bottom: 0; color: var(--text-muted); max-width: 650px;">
+              Our structural design and rotomoulding engineers manufacture custom fittings, heavy chemical wall thicknesses, and special color options for NGOs, schools, and infrastructure contractors.
+            </p>
+          </div>
+          <a href="request-a-quote.html" class="btn btn-accent btn-lg">Request Custom Quote</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Multi-column Footer & Floating WhatsApp injected by js/components.js -->
+  <div id="site-footer-root"></div>
+  <div id="site-whatsapp-root"></div>
+
+  <!-- Scripts -->
+  <script src="js/products.js"></script>
+  <script src="js/components.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
+
+

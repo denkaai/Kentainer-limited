@@ -1,0 +1,5 @@
+# Kentainers Limited - robots.txt
+User-agent: *
+Allow: /
+
+Sitemap: https://kentainers.co.ke/sitemap.xml
