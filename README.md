@@ -8,7 +8,7 @@ Built with plain HTML5, CSS3, and vanilla JavaScript. No node dependencies, no n
 
 ## 1. Original → Web Image Filename Mapping
 
-All original images in `./images/` are preserved untouched. Web-safe copies with lowercase kebab-case filenames are in `./images/web/`.
+All original images in `./images/` are preserved untouched. Web-safe copies with lowercase kebab-case filenames are in `./images/web/`. The site favicon lives at `images/site/favicon.png`.
 
 | Original Filename | Web Copy (`images/web/`) | Dimensions | Usage / Purpose |
 |:---|:---|:---|:---|
