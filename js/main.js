@@ -22,12 +22,12 @@
 
   // Category inline SVG illustrations for branded placeholders
   const CATEGORY_SVGS = {
-    'water-storage': '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2c-5.33 4-8 8-8 12 0 4.42 3.58 8 8 8s8-3.58 8-8c0-4-2.67-8-8-12zm0 18c-3.31 0-6-2.69-6-6 0-2.97 1.83-5.96 6-9.67 4.17 3.71 6 6.7 6 9.67 0 3.31-2.69 6-6 6z"/></svg>',
-    'pipes-fittings': '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h16v3H4zm0 5h16v3H4zm0 5h16v3H4z"/></svg>',
-    'sanitation-waste': '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-1 16H6c-.55 0-1-.45-1-1V6c0-.55.45-1 1-1h12c.55 0 1 .45 1 1v12c0 .55-.45 1-1 1z"/></svg>',
-    'agriculture-biogas': '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3L2 12h3v8h6v-6h2v6h6v-8h3L12 3zm0 3.8l5 4.5v6.7h-2v-6H9v6H7v-6.7l5-4.5z"/></svg>',
-    'material-handling': '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 2H4c-1.1 0-2 .9-2 2v3.01c0 1.06.84 1.93 1.89 1.99v9.01C3.89 19.11 4.78 20 5.89 20h12.22c1.11 0 2-.89 2-1.99V9c1.05-.06 1.89-.93 1.89-1.99V4c0-1.1-.9-2-2-2zm-1 16H5V9h14v9zm1-11H4V4h16v3z"/></svg>',
-    'furniture-qdesk': '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 18v3h3v-3h10v3h3v-3h1a1 1 0 001-1V8a1 1 0 00-1-1H3a1 1 0 00-1 1v9a1 1 0 001 1h1zm2-9h12v7H6V9z"/></svg>'
+    'water-storage': '<svg width="64" height="64" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2c-5.33 4-8 8-8 12 0 4.42 3.58 8 8 8s8-3.58 8-8c0-4-2.67-8-8-12zm0 18c-3.31 0-6-2.69-6-6 0-2.97 1.83-5.96 6-9.67 4.17 3.71 6 6.7 6 9.67 0 3.31-2.69 6-6 6z"/></svg>',
+    'pipes-fittings': '<svg width="64" height="64" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h16v3H4zm0 5h16v3H4zm0 5h16v3H4z"/></svg>',
+    'sanitation-waste': '<svg width="64" height="64" viewBox="0 0 24 24" aria-hidden="true"><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-1 16H6c-.55 0-1-.45-1-1V6c0-.55.45-1 1-1h12c.55 0 1 .45 1 1v12c0 .55-.45 1-1 1z"/></svg>',
+    'agriculture-biogas': '<svg width="64" height="64" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3L2 12h3v8h6v-6h2v6h6v-8h3L12 3zm0 3.8l5 4.5v6.7h-2v-6H9v6H7v-6.7l5-4.5z"/></svg>',
+    'material-handling': '<svg width="64" height="64" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 2H4c-1.1 0-2 .9-2 2v3.01c0 1.06.84 1.93 1.89 1.99v9.01C3.89 19.11 4.78 20 5.89 20h12.22c1.11 0 2-.89 2-1.99V9c1.05-.06 1.89-.93 1.89-1.99V4c0-1.1-.9-2-2-2zm-1 16H5V9h14v9zm1-11H4V4h16v3z"/></svg>',
+    'furniture-qdesk': '<svg width="64" height="64" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 18v3h3v-3h10v3h3v-3h1a1 1 0 001-1V8a1 1 0 00-1-1H3a1 1 0 00-1 1v9a1 1 0 001 1h1zm2-9h12v7H6V9z"/></svg>'
   };
 
   // --- 1. WoodMart-style Product Card Generator (Untinted, Equal Heights, Add to Quote + Details) ---
